@@ -1,0 +1,31 @@
+{
+  "name": "barelief",
+  "version": "0.0.1",
+  "description": "Image objects recognition",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vintlucky777/barelief.git"
+  },
+  "keywords": [
+    "neural",
+    "networks",
+    "perceptron",
+    "recognition",
+    "image"
+  ],
+  "author": "Victor Klochikhin",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/vintlucky777/barelief/issues"
+  },
+  "homepage": "https://github.com/vintlucky777/barelief#readme",
+  "dependencies": {
+    "babel-core": "^6.10.4",
+    "express": "^4.14.0"
+  }
+}
