@@ -16,7 +16,7 @@ app.get('/cool', (req, res) => {
 });
 
 app.get('/404', (req, res) => {
-  res.status(404);
+  res.status(404).send();
 });
 
 app.get('/403', (req, res) => {
