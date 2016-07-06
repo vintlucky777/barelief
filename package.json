@@ -4,8 +4,10 @@
   "description": "Image objects recognition",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node index.js",
-    "test": "npm test"
+    "start": "babel-node app.js",
+    "pack": "babel index.js > app.js",
+    "prod": "node app.js",
+    "test": "echo 0"
   },
   "repository": {
     "type": "git",
@@ -25,7 +27,17 @@
   },
   "homepage": "https://github.com/vintlucky777/barelief#readme",
   "dependencies": {
-    "babel-core": "^6.10.4",
-    "express": "^4.14.0"
+    "babel-polyfill": "6.9.1",
+    "cool-ascii-faces": "1.3.4",
+    "express": "4.14.0"
+  },
+  "devDependencies": {
+    "babel-cli": "6.10.1",
+    "babel-core": "6.10.4",
+    "babel-preset-es2015": "6.9.0",
+    "babel-preset-stage-0": "6.5.0"
+  },
+  "engines": {
+    "node": "4.2.5"
   }
 }
